@@ -17,7 +17,7 @@ in
   ];
 
   networking = {
-    hostName = "nixos-raspi-4"; # Define your hostname.
+    hostName = "nixos-raspi-4";
     networkmanager = {
       enable = true;
     };
