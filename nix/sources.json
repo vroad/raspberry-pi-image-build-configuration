@@ -1,0 +1,38 @@
+{
+    "nixos-generators": {
+        "branch": "master",
+        "description": "Collection of image builders [maintainer=@Lassulus]",
+        "homepage": "",
+        "owner": "nix-community",
+        "repo": "nixos-generators",
+        "rev": "50aeec40f2072d2ab267c8ec8a345573704ec110",
+        "sha256": "0ykz4lilw6qdj1p0jsiz8kw5k090fzsgw1nzgp5n132nhbb6msnz",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/nixos-generators/archive/50aeec40f2072d2ab267c8ec8a345573704ec110.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixos-hardware": {
+        "branch": "master",
+        "description": "A collection of NixOS modules covering hardware quirks.",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "0099253ad0b5283f06ffe31cf010af3f9ad7837d",
+        "sha256": "1mav9fdr5rjipl97jp5m7cb44kx2myh7p69xl6ssmjdm87ng4ihw",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixos-hardware/archive/0099253ad0b5283f06ffe31cf010af3f9ad7837d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-22.05",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "vroad",
+        "repo": "nixpkgs",
+        "rev": "46234f70fab04b9e9cfb14ecc9a97d5e05cdb77a",
+        "sha256": "1p94vy6d1razgfg5fgf89lmkk7fpkkdy1di7pswl6mqpwipzh5r9",
+        "type": "tarball",
+        "url": "https://github.com/vroad/nixpkgs/archive/46234f70fab04b9e9cfb14ecc9a97d5e05cdb77a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

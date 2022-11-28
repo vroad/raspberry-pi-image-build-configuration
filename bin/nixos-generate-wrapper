@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -eu
+export NIX_PATH
+NIX_PATH="nixpkgs=$(nix eval --impure --raw --expr '(with import ./nix/sources.nix;nixpkgs.outPath)'):nixos-generators=$(nix eval --impure --raw --expr '(with import ./nix/sources.nix;nixos-generators.outPath)'):${NIX_PATH}"
+nix run --impure --expr '(import <nixos-generators>)' out -- "$@"
